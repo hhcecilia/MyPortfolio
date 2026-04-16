@@ -72,6 +72,21 @@ const projects = [
     link: 'https://github.com/hhcecilia/Assignment1HH',
     linkLabel: 'GitHub',
   },
+  {
+    title: 'Portfolio E2E Test Suite — Playwright',
+    image: null,
+    description: 'Wrote an end-to-end automated test suite for this portfolio site using Playwright, covering navigation, content correctness, accessibility, and security attributes.',
+    bullets: [
+      'Verified page title, meta description, and Open Graph tags are correctly set.',
+      'Tested all navigation links resolve to the correct sections.',
+      'Confirmed all 19 skill tags render in the About section.',
+      'Validated that all external links use rel="noopener noreferrer" for security.',
+      'Checked accessibility basics — h1 presence and alt text on all images.',
+    ],
+    tech: ['Playwright', 'JavaScript', 'E2E Testing', 'QA', 'Accessibility Testing'],
+    link: 'https://github.com/hhcecilia/portfolio-tests',
+    linkLabel: 'GitHub',
+  },
 ];
 
 function ProjectCard({ project, index }) {
