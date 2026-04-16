@@ -60,7 +60,8 @@ const projects = [
   },
   {
     title: 'Student Management System — PHP MVC',
-    image: null,
+    image: '/images/phpMVC.png',
+    imageAlt: 'GitHub repository showing MVC folder structure for Student Management System',
     description: 'Developed a web application for managing student records using PHP and a structured MVC architecture, built as part of an Enterprise Computing course.',
     bullets: [
       'Designed and implemented a relational SQL database schema.',
