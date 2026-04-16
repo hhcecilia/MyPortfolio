@@ -15,6 +15,8 @@ Software development student with a background in administrative and technical s
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 
+[![Portfolio](https://img.shields.io/badge/-Portfolio-00897B?style=flat&logo=vercel&logoColor=white)](https://hhdev-portfolio.vercel.app)
+
 ## 🚀 Featured Projects
 
 - **[CI/CD Pipeline — React App to AWS ECS](https://github.com/hhcecilia/react-cicd26)** — Full Jenkins pipeline: build → Docker → ECR → ECS deployment with S3 artifact storage
