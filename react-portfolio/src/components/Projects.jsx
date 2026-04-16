@@ -74,7 +74,8 @@ const projects = [
   },
   {
     title: 'Portfolio E2E Test Suite — Playwright',
-    image: null,
+    image: '/images/portfolio-testSS.png',
+    imageAlt: 'Playwright test report showing 18 passing tests',
     description: 'Wrote an end-to-end automated test suite for this portfolio site using Playwright, covering navigation, content correctness, accessibility, and security attributes.',
     bullets: [
       'Verified page title, meta description, and Open Graph tags are correctly set.',
