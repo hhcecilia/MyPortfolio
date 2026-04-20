@@ -36,7 +36,7 @@ export default function About() {
         <FadeIn delay={0.1}>
           <p className="about-text">
             Software developer with a background in administrative and technical support roles,
-            bringing hands-on experience through personal and academic projects. Comfortable working with
+            with hands-on experience from personal and academic projects. Comfortable working with
             web technologies, databases, and modern development tools, with a focus on problem-solving,
             learning quickly, and building reliable solutions. Experienced in regulated environments,
             cross-team collaboration, and adapting to new systems and workflows. Seeking an entry-level
