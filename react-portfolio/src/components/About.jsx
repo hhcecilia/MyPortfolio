@@ -35,13 +35,12 @@ export default function About() {
 
         <FadeIn delay={0.1}>
           <p className="about-text">
-            Software development student with a background in administrative and technical support roles,
-            currently completing a diploma and building practical experience through academic and personal
-            projects. Comfortable working with web technologies, databases, and modern development tools,
-            with a focus on problem-solving, learning quickly, and building reliable solutions. Experienced
-            in regulated environments, cross-team collaboration, and adapting to new systems and workflows.
-            Seeking an entry-level or student opportunity in technology or systems where I can contribute,
-            continue learning, and grow professionally.
+            Software developer with a background in administrative and technical support roles,
+            bringing hands-on experience through personal and academic projects. Comfortable working with
+            web technologies, databases, and modern development tools, with a focus on problem-solving,
+            learning quickly, and building reliable solutions. Experienced in regulated environments,
+            cross-team collaboration, and adapting to new systems and workflows. Seeking an entry-level
+            opportunity in technology or systems where I can contribute, continue learning, and grow professionally.
           </p>
         </FadeIn>
 

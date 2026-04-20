@@ -53,7 +53,7 @@ export default function Contact() {
           >
             <h2 className="section-title">Get In Touch</h2>
             <p className="contact-text">
-              I&apos;m currently seeking entry-level or student opportunities in software development.
+              I&apos;m currently seeking entry-level opportunities in software development.
               If you have a role, a question, or just want to connect, feel free to reach out!
             </p>
             <div className="contact-links">
