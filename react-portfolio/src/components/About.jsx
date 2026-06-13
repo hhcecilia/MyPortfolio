@@ -36,9 +36,9 @@ export default function About() {
         <FadeIn delay={0.1}>
           <p className="about-text">
             Data analyst with over seven years of experience in medical office environments, working directly
-            with clinical systems including Accuro EMR, Sectra PACS, and Visage imaging. That background —
+            with clinical systems including Accuro EMR, Sectra PACS, and Visage imaging. That background,
             managing patient records, supporting diagnostic workflows, and maintaining data accuracy under
-            strict confidentiality requirements — gives me a grounded understanding of how healthcare data
+            strict confidentiality requirements, gives me a grounded understanding of how healthcare data
             works in practice and what's at stake when it doesn't. Now focused on data analytics, bringing
             that domain knowledge together with technical skills in Python, SQL, and data visualization to
             find patterns, surface insights, and communicate findings clearly. Seeking an entry-level

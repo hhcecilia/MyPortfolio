@@ -65,8 +65,8 @@ export default function Contact() {
               ))}
             </div>
             <p className="resume-note">
-              Resume available on request &mdash;{' '}
-              <a href="mailto:heather.hb@hotmail.com?subject=Resume%20Request">send me an email</a>
+              Resume available on request.{' '}
+              <a href="mailto:heather.hb@hotmail.com?subject=Resume%20Request">Send me an email</a>
               {' '}and I&apos;ll get it to you promptly.
             </p>
           </motion.div>

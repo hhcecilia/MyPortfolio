@@ -26,16 +26,16 @@ const projects = [
     linkLabel: 'GitHub',
   },
   {
-    title: 'CI/CD Pipeline — React, Docker & AWS',
+    title: 'CI/CD Pipeline: React, Docker & AWS',
     image: '/images/cicd-pipeline.png',
     imageAlt: 'Jenkins Stage View showing successful CI/CD pipeline runs',
     description: 'Built a full end-to-end CI/CD pipeline for a containerized React application, automating the entire path from code commit to cloud deployment.',
     bullets: [
-      'Build — compiled and bundled the React app inside a Docker container using Node.js.',
-      'Test — ran automated unit tests as a required gate before any deployment.',
-      'Push to ECR — built a Docker image and pushed it to AWS Elastic Container Registry.',
-      'Deploy to S3 — synced the production build to an AWS S3 static hosting bucket.',
-      'Deploy to ECS — updated the task definition and triggered a new deployment on an AWS ECS cluster.',
+      'Build: compiled and bundled the React app inside a Docker container using Node.js.',
+      'Test: ran automated unit tests as a required gate before any deployment.',
+      'Push to ECR: built a Docker image and pushed it to AWS Elastic Container Registry.',
+      'Deploy to S3: synced the production build to an AWS S3 static hosting bucket.',
+      'Deploy to ECS: updated the task definition and triggered a new deployment on an AWS ECS cluster.',
     ],
     tech: ['React', 'Docker', 'Jenkins', 'AWS ECR', 'AWS ECS', 'AWS S3', 'CI/CD'],
     link: 'https://github.com/hhcecilia/react-cicd26',
@@ -43,7 +43,7 @@ const projects = [
   },
 
   {
-    title: 'SKS National Bank — SQL Database Design',
+    title: 'SKS National Bank: SQL Database Design',
     image: null,
     description: 'Designed and built a relational banking database from scratch using T-SQL, modelling real-world entities including customers, accounts, loans, employees, and transactions.',
     bullets: [
