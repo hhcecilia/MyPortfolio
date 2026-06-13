@@ -26,7 +26,22 @@ const projects = [
     linkLabel: 'GitHub',
   },
   {
-    title: 'CI/CD Pipeline: React, Docker & AWS',
+    title: 'Enabled Talent Career Centre Dashboard',
+    image: null,
+    description: 'Capstone project: a full-stack data visualization dashboard for career centre staff at colleges and universities, tracking student placements, job opportunities, applications, and skill gaps.',
+    role: 'UX design and frontend development.',
+    bullets: [
+      'Designed the user interface and experience for career centre staff workflows.',
+      'Built frontend components using React, TypeScript, and Tailwind CSS.',
+      'Integrated Recharts to visualize KPIs including placement rates, skill gap analysis, and student demographics.',
+      'Seeded the PostgreSQL database with realistic mock data to support development and demonstration.',
+      'Backend was hardened with input validation, parameterized queries, rate limiting, and CORS allowlisting.',
+    ],
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Recharts', 'Node.js', 'Express', 'PostgreSQL', 'REST APIs'],
+    link: 'https://github.com/TyLandry/Enabled-Talent-Career-Centre-Dashboard',
+    linkLabel: 'GitHub',
+  },
+  {
     image: '/images/cicd-pipeline.png',
     imageAlt: 'Jenkins Stage View showing successful CI/CD pipeline runs',
     description: 'Built a full end-to-end CI/CD pipeline for a containerized React application, automating the entire path from code commit to cloud deployment.',
