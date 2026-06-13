@@ -41,25 +41,23 @@ const projects = [
     link: 'https://github.com/hhcecilia/react-cicd26',
     linkLabel: 'GitHub',
   },
+
   {
-    title: 'Bow Valley College Website Recreation',
-    image: '/images/bowvexample.png',
-    imageAlt: 'Bow Valley College Website',
-    description: 'Recreated a multi-page college website as part of a software development course, focusing on clean UI, functional backend integration, and data handling.',
-    role: 'Frontend and backend development.',
+    title: 'SKS National Bank — SQL Database Design',
+    image: null,
+    description: 'Designed and built a relational banking database from scratch using T-SQL, modelling real-world entities including customers, accounts, loans, employees, and transactions.',
     bullets: [
-      'Designed wireframes to plan layout and user flow.',
-      'Built the frontend using HTML, Tailwind CSS, and JavaScript.',
-      'Implemented backend functionality and validated API calls.',
-      'Connected application data to MongoDB.',
-      'Ensured end-to-end functionality between frontend, backend, and database.',
+      'Designed and implemented the full database schema with normalized tables, primary keys, and foreign key relationships.',
+      'Populated the database with realistic data including addresses and employee records.',
+      'Built triggers for business rule enforcement and audit logging to track data changes.',
+      'Created indexes to optimize query performance across the database.',
+      'Wrote and tested a range of SQL queries covering joins, aggregations, and filtering.',
+      'Extended the schema with spatial and JSON columns to support location and flexible data storage.',
     ],
-    tech: ['HTML', 'Tailwind CSS', 'JavaScript', 'Node.js', 'MongoDB', 'REST APIs'],
-    link: 'https://github.com/TyLandry/bow-course-registration---group-1/commits?author=hhcecilia',
-    linkLabel: 'My Commits',
+    tech: ['T-SQL', 'SQL Server', 'Database Design', 'Triggers', 'Indexing', 'Data Modelling'],
+    link: 'https://github.com/TyLandry/SKS-National-Bank',
+    linkLabel: 'GitHub',
   },
-  {
-    title: 'Student Management System — PHP MVC',
     image: '/images/phpMVC.png',
     imageAlt: 'GitHub repository showing MVC folder structure for Student Management System',
     description: 'Developed a web application for managing student records using PHP and a structured MVC architecture, built as part of an Enterprise Computing course.',
@@ -73,22 +71,7 @@ const projects = [
     link: 'https://github.com/hhcecilia/Assignment1HH',
     linkLabel: 'GitHub',
   },
-  {
-    title: 'Portfolio E2E Test Suite — Playwright',
-    image: '/images/portfolio-testSS.png',
-    imageAlt: 'Playwright test report showing 18 passing tests',
-    description: 'Wrote an end-to-end automated test suite for this portfolio site using Playwright, covering navigation, content correctness, accessibility, and security attributes.',
-    bullets: [
-      'Verified page title, meta description, and Open Graph tags are correctly set.',
-      'Tested all navigation links resolve to the correct sections.',
-      'Confirmed all 19 skill tags render in the About section.',
-      'Validated that all external links use rel="noopener noreferrer" for security.',
-      'Checked accessibility basics — h1 presence and alt text on all images.',
-    ],
-    tech: ['Playwright', 'JavaScript', 'E2E Testing', 'QA', 'Accessibility Testing'],
-    link: 'https://github.com/hhcecilia/portfolio-tests',
-    linkLabel: 'GitHub',
-  },
+
 ];
 
 function ProjectCard({ project, index }) {
