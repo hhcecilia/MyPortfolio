@@ -58,19 +58,6 @@ const projects = [
     link: 'https://github.com/TyLandry/SKS-National-Bank',
     linkLabel: 'GitHub',
   },
-    image: '/images/phpMVC.png',
-    imageAlt: 'GitHub repository showing MVC folder structure for Student Management System',
-    description: 'Developed a web application for managing student records using PHP and a structured MVC architecture, built as part of an Enterprise Computing course.',
-    bullets: [
-      'Designed and implemented a relational SQL database schema.',
-      'Separated concerns using MVC — dedicated controllers, models, and views.',
-      'Built CRUD functionality for creating, viewing, updating, and deleting student records.',
-      'Applied enterprise application structure patterns including a config layer and routing via a front controller.',
-    ],
-    tech: ['PHP', 'MVC Architecture', 'MySQL', 'XAMPP', 'HTML/CSS'],
-    link: 'https://github.com/hhcecilia/Assignment1HH',
-    linkLabel: 'GitHub',
-  },
 
 ];
 
