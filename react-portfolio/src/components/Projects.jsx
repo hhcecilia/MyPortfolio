@@ -10,6 +10,22 @@ const GitHubIcon = () => (
 
 const projects = [
   {
+    title: 'Workplace Stress Analysis in Canada',
+    image: '/images/dataScienceExample.png',
+    imageAlt: 'Workplace Stress Analysis Visualization',
+    description: 'Examined reported workplace stress across different age groups and genders in Canada using survey data to better understand which groups may be more vulnerable.',
+    bullets: [
+      'Cleaned and prepared raw survey data for analysis.',
+      'Performed exploratory data analysis to identify trends.',
+      'Created visualizations to compare stress levels across age groups and genders.',
+      'Interpreted results and summarized key findings.',
+      'Presented insights in a clear, non-technical format.',
+    ],
+    tech: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Jupyter Notebook', 'Data Analysis'],
+    link: 'https://github.com/hhcecilia/workplace-stress-analysis',
+    linkLabel: 'GitHub',
+  },
+  {
     title: 'CI/CD Pipeline — React, Docker & AWS',
     image: '/images/cicd-pipeline.png',
     imageAlt: 'Jenkins Stage View showing successful CI/CD pipeline runs',
@@ -41,22 +57,6 @@ const projects = [
     tech: ['HTML', 'Tailwind CSS', 'JavaScript', 'Node.js', 'MongoDB', 'REST APIs'],
     link: 'https://github.com/TyLandry/bow-course-registration---group-1/commits?author=hhcecilia',
     linkLabel: 'My Commits',
-  },
-  {
-    title: 'Workplace Stress Analysis in Canada',
-    image: '/images/dataScienceExample.png',
-    imageAlt: 'Workplace Stress Analysis Visualization',
-    description: 'Examined reported workplace stress across different age groups and genders in Canada using survey data to better understand which groups may be more vulnerable.',
-    bullets: [
-      'Cleaned and prepared raw survey data for analysis.',
-      'Performed exploratory data analysis to identify trends.',
-      'Created visualizations to compare stress levels across age groups and genders.',
-      'Interpreted results and summarized key findings.',
-      'Presented insights in a clear, non-technical format.',
-    ],
-    tech: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Jupyter Notebook', 'Data Analysis'],
-    link: 'https://github.com/hhcecilia/workplace-stress-analysis',
-    linkLabel: 'GitHub',
   },
   {
     title: 'Student Management System — PHP MVC',

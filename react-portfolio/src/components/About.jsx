@@ -4,10 +4,10 @@ import { useRef } from 'react';
 import './About.css';
 
 const skills = [
-  'JavaScript', 'Python', 'HTML/CSS', 'Tailwind CSS',
-  'Node.js', 'MongoDB', 'REST APIs', 'Pandas', 'NumPy',
-  'Data Analysis', 'PHP', 'Kotlin', 'SQL', 'MySQL',
-  'Docker', 'Jenkins', 'AWS (ECR / ECS / S3)', 'Git', 'Agile / Scrum',
+  'Python', 'Pandas', 'NumPy', 'Matplotlib', 'Data Analysis',
+  'SQL', 'MySQL', 'Jupyter Notebook', 'JavaScript', 'HTML/CSS',
+  'Tailwind CSS', 'Node.js', 'MongoDB', 'REST APIs',
+  'PHP', 'Docker', 'Jenkins', 'AWS (ECR / ECS / S3)', 'Git', 'Agile / Scrum',
 ];
 
 function FadeIn({ children, delay = 0 }) {
@@ -35,12 +35,14 @@ export default function About() {
 
         <FadeIn delay={0.1}>
           <p className="about-text">
-            Software developer with a background in administrative and technical support roles,
-            with hands-on experience from personal and academic projects. Comfortable working with
-            web technologies, databases, and modern development tools, with a focus on problem-solving,
-            learning quickly, and building reliable solutions. Experienced in regulated environments,
-            cross-team collaboration, and adapting to new systems and workflows. Seeking an entry-level
-            opportunity in technology or systems where I can contribute, continue learning, and grow professionally.
+            Data analyst with over seven years of experience in medical office environments, working directly
+            with clinical systems including Accuro EMR, Sectra PACS, and Visage imaging. That background —
+            managing patient records, supporting diagnostic workflows, and maintaining data accuracy under
+            strict confidentiality requirements — gives me a grounded understanding of how healthcare data
+            works in practice and what's at stake when it doesn't. Now focused on data analytics, bringing
+            that domain knowledge together with technical skills in Python, SQL, and data visualization to
+            find patterns, surface insights, and communicate findings clearly. Seeking an entry-level
+            analytics role where healthcare context and data skills are both an asset.
           </p>
         </FadeIn>
 
@@ -57,7 +59,7 @@ export default function About() {
 
         <FadeIn delay={0.3}>
           <p className="currently-learning">
-            Currently deepening my knowledge in <strong>cloud infrastructure</strong> and <strong>React</strong>.
+            Currently deepening my knowledge in <strong>data analytics</strong> and <strong>cloud infrastructure</strong>.
           </p>
         </FadeIn>
       </div>

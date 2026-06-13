@@ -46,7 +46,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          Software Developer &nbsp;·&nbsp; Web &amp; Database Technologies &nbsp;·&nbsp; Seeking Entry-Level Opportunities
+          Data Analytics &nbsp;·&nbsp; Healthcare Background &nbsp;·&nbsp; Seeking Entry-Level Opportunities
         </motion.p>
 
         <motion.div
